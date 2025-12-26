@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+
 
 # Load saved model, scaler, and encoders
 model = joblib.load("medicine_price_model.pkl")
